@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainWindow",
+            "request": "launch",
+            "mainClass": "com.puntoventa.view.MainWindow",
+            "projectName": "PuntoDeVenta_dc5a7247"
+        }
+    ]
+}

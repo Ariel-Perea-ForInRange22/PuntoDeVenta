@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Point of Sale",
+			"type": "shell",
+			"command": "javac -d bin -cp 'lib\\*;src' src/com/puntoventa/model/*.java src/com/puntoventa/dao/*.java src/com/puntoventa/controller/*.java src/com/puntoventa/util/*.java src/com/puntoventa/view/*.java src/com/puntoventa/view/Boton/inventory/*.java && java -cp 'bin;lib\\*' com.puntoventa.view.MainWindow",
+			"group": "build",
+			"problemMatcher": [
+				"$jdt-javac"
+			],
+			"isBackground": false
+		}
+	]
+}
