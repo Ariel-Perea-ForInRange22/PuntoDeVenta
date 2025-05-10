@@ -1,0 +1,21 @@
+# Archivos compilados
+*.class
+
+# Directorios de salida
+/bin/
+/target/
+
+# Archivos generados
+/TICKETS/
+/R_INVENTARIO/
+/R_VENTAS/
+/ProductoMasVendido/
+
+# Archivos específicos de IDE
+.vscode/
+.idea/
+*.iml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
