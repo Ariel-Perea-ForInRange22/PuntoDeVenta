@@ -1,18 +1,33 @@
-## Getting Started
+# Sistema Punto de Venta
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Sistema de punto de venta desarrollado en Java con interfaz gráfica Swing.
 
-## Folder Structure
+## Características
 
-The workspace contains two folders by default, where:
+- Gestión de productos
+- Control de ventas
+- Generación de reportes
+- Control de inventario
+- Generación de tickets
+- Sistema de usuarios con roles (admin/vendedor)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Estructura del Proyecto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+El proyecto contiene las siguientes carpetas principales:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- `src`: Código fuente del proyecto
+- `lib`: Bibliotecas y dependencias
+- `bin`: Archivos compilados
+- `TICKETS`: Tickets generados
+- `R_INVENTARIO`: Reportes de inventario
+- `R_VENTAS`: Reportes de ventas
 
-## Dependency Management
+## Dependencias
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+El proyecto utiliza las siguientes bibliotecas:
+- iText PDF para generación de documentos PDF
+- JCalendar para manejo de fechas
+- Microsoft SQL Server JDBC para conexión a base de datos
+- Apache POI para manejo de archivos Excel
+Punto De venta para la materia de Programacion Avanzada
+>>>>>>> 2a0cc2cc6c82c59722383f26bc722ba74e1ed751
